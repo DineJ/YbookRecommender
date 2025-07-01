@@ -57,6 +57,7 @@ Cette application utilise plusieurs modèles de filtrage collaboratif pour préd
 le fichier `recommender.py` entraîne plusieurs modèles, grâce à sa classe. Il sélectionne le meilleur, puis le sauvegarde dans `datas/pickle/`.
 
 ```bash
-streamlit run app.py
+streamlit run src/app.py
+python -m streamlit run src/app.py
 
-jupyter notebook
+/src/notebook jupyter notebook
