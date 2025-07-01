@@ -1,0 +1,13 @@
+
+---
+
+## requirements.txt
+
+```txt
+pandas
+numpy<2.0
+matplotlib
+seaborn
+plotly
+streamlit
+scikit-surprise
