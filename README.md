@@ -54,7 +54,9 @@ Cette application utilise plusieurs modèles de filtrage collaboratif pour préd
 
 ### Entraîner et sauvegarder le modèle
 
-Lancer le script `recommender.py` qui entraîne plusieurs modèles, sélectionne le meilleur, puis le sauvegarde dans `datas/pickle/`.
+le fichier `recommender.py` entraîne plusieurs modèles, grâce à sa classe. Il sélectionne le meilleur, puis le sauvegarde dans `datas/pickle/`.
 
 ```bash
-python src/recommender.py
+streamlit run app.py
+
+jupyter notebook
